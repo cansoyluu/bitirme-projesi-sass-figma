@@ -1,0 +1,32 @@
+
+@media (max-width: 768px) {
+   
+    .buy .d-flex.column-gap-3 {
+      justify-content: center;
+    }
+    .buy .second-input {
+      width: 100% !important;
+    }
+    .buy .first-input {
+      width: 180px !important;
+    }
+    .buy .btn.btn-primary {
+      width: 100% !important;
+    }
+    .credit-cart-2 {
+      margin-top: 26rem;
+    }
+    .tools-2 {
+      transform: scale(.7);
+     
+    }
+    .tools-3 {
+      flex-direction: column-reverse;
+    }
+    .endustry {
+      margin-top: 49rem;
+    }
+    .buy-trade {
+      flex-direction: column-reverse;
+    }
+}

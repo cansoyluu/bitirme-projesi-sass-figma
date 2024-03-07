@@ -1,6 +1,16 @@
-/*# sourceMappingURL=style.css.map */.color {
-    background-color: #f6fbff;
+/*# sourceMappingURL=style.css.map */
+@use "./sass/abstracts";
+@use "./sass/base";
+@use "./sass/components";
+@use "./sass/layout";
+@use "./sass/pages";
+@use "./sass/themes";
+@use "./sass/vendors";
+
+.color {
+  background-color: #f6fbff;
 }
+
 
 .border-1 {
   border: solid 30px;
@@ -35,7 +45,7 @@
   height: 600px;
 
   background-color: #f8fbfe;
- padding-bottom: 70px;
+  padding-bottom: 70px;
 }
 .tools {
   padding-left: 100px;
@@ -43,7 +53,6 @@
 .border-2 {
   border-radius: 2.5rem;
   background-color: #f8fbfe;
-  
 }
 .ok {
   padding-bottom: 6rem;
@@ -57,3 +66,20 @@
 .ccc {
   color: #12c5fd;
 }
+.my-gradiant {
+  background-image: url(assets/image/Hero.png) !important ;
+}
+
+.border-5 {
+  border: solid 30px;
+  border-radius: 2.5rem;
+  min-height: 350px;
+  border: white;
+  background-color: white;
+  padding: 50px 0;
+  transform: translateY(-60px);
+}
+.border-6 {
+  border-color: rgb(128, 128, 128, 0.5);
+}
+
